@@ -1,0 +1,108 @@
+############################
+# PYTHON + ML / CV PROJECTS
+############################
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode, PyCharm
+.vscode/
+.idea/
+
+############################
+# DEEP LEARNING ARTIFACTS
+############################
+
+# Model weights & checkpoints
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Training states
+checkpoints/
+**/checkpoints/
+models/
+**/models/
+
+############################
+# OUTPUTS / RESULTS
+############################
+
+results/
+results_*/
+*_results/
+outputs/
+runs/
+logs/
+tensorboard/
+tb_logs/
+wandb/
+wandb/*
+
+############################
+# DATASETS & MEDIA
+############################
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tif
+*.tiff
+
+# Videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# PDFs and Docs
+*.pdf
+*.docx
+*.pptx
+
+# Raw datasets
+data/
+datasets/
+**/data/
+**/datasets/
+
+############################
+# TEMPORARY FILES
+############################
+
+temp/
+tmp/
+cache/
+__temp__/
+*.tmp
+
+############################
+# LARGE NUMPY / TORCH FILES
+############################
+
+*.npy
+*.npz
+*.pickle
+*.pkl
+
+############################
+# OS FILES
+############################
+
+.DS_Store
+Thumbs.db
